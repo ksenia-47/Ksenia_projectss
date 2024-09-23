@@ -1,8 +1,8 @@
-s = 82 * '1'
-while '11111' in s or '888' in s:
-    if '11111' in s:
-        s = s.replace('11111','88',1)
-    elif '888' in s:
-        s = s.replace('888','88',1)
-print(s)
+res = 82 * '1'
+while '11111' in res or '888' in res:
+    if '11111' in res:
+        res = res.replace('11111','88',1)
+    elif '888' in res:
+        res = res.replace('888','88',1)
+print(res)
 ОТВЕТ:8811
