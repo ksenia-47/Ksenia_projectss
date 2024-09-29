@@ -1,0 +1,12 @@
+res = 99 * '8' + '1'
+while '133' in res or '881' in res:
+    if '133' in res:
+        res = res.replace('133','81',1)
+    else:
+        res = res.replace('881','13',1)
+print(res)
+ОТВЕТ:813
+15
+просто посчитаем
+1001001000
+7
